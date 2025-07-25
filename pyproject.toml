@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.13"
 streamlit = "^1.47.0"
 
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core"]
